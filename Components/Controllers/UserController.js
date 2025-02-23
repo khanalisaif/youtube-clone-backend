@@ -7,6 +7,7 @@ dotenv.config();
 
 
 export const signup = async (req, res) => {
+  // unnecessary comment 
   try {
     const {name , channelName, email, phone, password } = req.body;
 
